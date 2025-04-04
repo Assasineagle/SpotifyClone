@@ -1,0 +1,46 @@
+.border{
+    border: solid red 2px;
+    margin: 3px;
+}
+.flex{
+    display:flex;
+}
+.justify-center{
+    justify-content: center;
+}
+.items-center{
+    align-items: center;
+}
+/* Updated to a vibrant blue background */
+.bg-black{
+    background-color: #1E90FF; /* dodger blue */
+    color: white;
+}
+.invert{
+    filter: invert(1);
+}
+/* Updated to a sky blue background */
+.bg-grey{
+    background-color: #87CEEB; /* sky blue */
+    color: black;
+}
+.rounded{
+    border-radius: 7px;
+}
+.m-1{
+    margin: 5px;
+}
+.p-1{
+    padding: 10px;
+}
+/* Updated scrollbar styling for vibrant blue theme */
+::-webkit-scrollbar {
+    width: 12px;
+}
+::-webkit-scrollbar-thumb {
+    background-color: #1C86EE; /* vibrant blue thumb */
+    border-radius: 6px;
+}
+::-webkit-scrollbar-track {
+    background-color: #B0E2FF; /* lighter blue track */
+}
